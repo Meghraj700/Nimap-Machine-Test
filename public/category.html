@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category Master</title>
+    <link rel="stylesheet" href="category.css">
+
+</head>
+<body>
+    <h1>Category Master</h1>
+    <form id="addCategoryForm">
+        <label for="categoryName">Category Name:</label>
+        <input type="text" id="categoryName" name="categoryName" required>
+        <button type="submit">Add Category</button>
+    </form>
+    <ul id="categoryList"></ul>
+
+    
+    <form id="deleteCategoryForm">
+        <label for="categoryIdToDelete">Category ID to Delete:</label>
+        <input type="number" id="categoryIdToDelete" name="categoryIdToDelete" required>
+        <button type="submit">Delete Category</button>
+    </form>
+
+    <script src="category.js"></script>
+</body>
+</html>
